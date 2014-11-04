@@ -1,0 +1,21 @@
+# TEAM
+
+Designer & Developer: Vickey Menard
+Site: http://vickeymenard.ca
+GitHub: http://github.com/vickeymenard
+Twitter: @vickeymenard
+Location: Ottawa, Canada
+Email: info@vickeymenard.ca
+
+---
+
+# THANKS
+
+Slideshow from Some Person <http://Slideshow.com
+Big Image © Another Person <http://geddyimages.com
+
+# TECHNOLOGY
+
+- Sublime Text
+- GitHub
+- Hover.com
