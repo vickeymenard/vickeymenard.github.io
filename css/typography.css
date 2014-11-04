@@ -107,7 +107,7 @@ ul li{
 }
 
 ul li:before{
-	content: "☞";
+	content: "";
 	color: #666;
 	position: absolute;
 	left: -1em;
