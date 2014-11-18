@@ -19,12 +19,23 @@ html {
 
 body{
 	margin: 0;
-	padding: 0 5px;
+	font-family:'Raleway', sans-serif;
+	font-weight: 300;
+
+}
+
+h1{
+	font-family: 'Raleway', sans-serif;;
+	text-transform: uppercase;
+	font-size: 16px;
+	text-align: left;
+	font-weight: 400;
 }
 
 h2{
 	font-family: dancing script;
-	font-size: 60px;
+	font-size: 40px;
+	color: rgba(80,191,174,1);
 }
 
 /* ------------------- Navigation */
@@ -44,7 +55,7 @@ ul#nav-list{
 	margin: 1rem 0;
 	padding: 0;
 	list-style: none;
-	text-align: center;
+	text-align: right;
 }
 
 
@@ -65,14 +76,12 @@ ul#list-nav li a:hover {
 
 /* ----------------- Banner section */
 
-img {
-	display: block;
-	margin: 0 auto;
-}
 
 .logo{
 	width:130px;
 	opacity: .7;
+	display: block;
+	margin: 0 auto;
 }
 
 .banner-section{
@@ -81,6 +90,8 @@ img {
 	padding:10rem 0 1rem;
 	position: in;
 	}
+
+/*--------------- design section */
 
 .design-section{
 	padding: 0;
@@ -91,8 +102,85 @@ img {
 	padding-bottom: .5em;
 }
 
+.design-section p{
+	text-align: center;
+}
+
+/* ---------------- photography section */
+
 .photography-section{
 	padding: 0 .5em;
+}
+
+.photography-section img{
+	width: 100%;
+	padding-bottom: .5em;
+}
+
+.photography-section p{
+	text-align: center;
+}
+
+/* ----------------- About Section */
+
+.about-section{
+	padding: 0 1em;
+}
+
+.about-section p{
+	text-align: center;
+}
+
+.about-section img{
+	width: 100%;
+}
+
+/* ------------------ Contact Section */
+
+.contact-section{
+	padding: 0 1em;
+	text-align: center;
+}
+
+/* ------------------ Footer Section */
+
+.footer-section{
+	background-color: #031815;
+	width: 100%;
+	margin: 0;
+}
+
+.footer-section p{
+	color: white;
+	font-size: 15px;
+	padding: 1em 0;
+}
+
+/* 400px */
+@media only screen and (min-width: 25em) {
+
+.logo{
+	width:170px;
+	opacity: .7;
+}
+
+.banner-section{
+	background: transparent url('../images/pine-cones.jpg') no-repeat center;
+	background-size: cover;
+	padding: 10em 0 5em;
+}
+
+.design-section{
+	padding: 0 1em;
+}
+
+.design-section img{
+	width: 100%;
+	padding-bottom: .5em;
+}
+
+.photography-section{
+	padding: 0 1em;
 }
 
 .photography-section img{
@@ -103,97 +191,69 @@ img {
 	padding: 0 1em;
 }
 
-.about-section p{
-	text-align: center;
-}
-
 .contact-section{
-	background-color: #cdbcef;
-}
-
-
-/* 400px */
-@media only screen and (min-width: 25em) {
-	.logo{
-	width:230px;
-	opacity: .7;
-}
-
-.banner-section{
-	background: transparent url('../images/pine-cones.jpg') no-repeat center;
-	background-size: cover;
-	padding: 10rem 0 1;
-}
-
-.design-section{
-	padding: 0 2em;
-}
-
-.design-section img{
-	width: 100%;
-}
-
-.photography-section{
-	padding: 0 2em;
-}
-
-.photography-section img{
-	width: 100%;
-}
-
-.about-section{
-	padding: 0 2em;
-}
-
-.contact-section{
-	background-color: #cdbcef;
+	padding: 0 1em;
 }
 
 }
 
 /* 604px */
 @media only screen and (min-width: 38em){
+
 ul#nav-list li {
 	display: inline;
 }
 
 .logo{
-	width:300px;
+	width:400px;
 	opacity: .7;
 }
 
 .banner-section{
 	background: transparent url('../images/pine-cones.jpg') no-repeat center;
 	background-size: cover;
-	padding: 10rem 0;
+	padding: 11rem 0;
 }
 
 .about-section{
-	padding: 0 10em;
+	padding: 0 6em;
 }
 
 .about-section p{
-	text-align: center;
+	padding: 0 7em;
+	text-align: left;
 }
 
 .design-section{
-	padding: 0 10em;
+	padding: 0 6em;
+}
+
+.design-section p{
+	padding: 0 7em;
+	text-align: left
 }
 
 .design-section img{
 	width: 100%;
+	padding-bottom: 0;
 }
 
 .photography-section{
-	padding: 0 10em;
+	padding: 0 6em;
+}
+
+.photography-section p{
+	padding: 0 7em;
+	text-align: left;
 }
 
 .photography-section img{
 	width: 100%;
+	padding-bottom: 0;
 }
 
 .contact-section{
-	background-color: #cdbcef;
+	padding: 0 8em;
 }
 
 
