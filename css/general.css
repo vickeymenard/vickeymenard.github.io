@@ -23,12 +23,8 @@ body{
 }
 
 
-.header-sectoin{
-	background-color: #a5cdef;
-}
-
 .nav-bar{
-	background-color: black;
+	background-color: #031815;
 	padding: 1rem;
 }
 
@@ -62,7 +58,7 @@ img {
 
 .logo{
 	width:300px;
-	opacity: .4;
+	opacity: .7;
 }
 
 .banner-section{
@@ -87,9 +83,22 @@ img {
 	background-color: #cdbcef;
 }
 
+@media only screen and (min-width: 25em) {
+	.banner-section{
+	background-size: cover;
+	padding: 2rem 0;
+	}
+}
+
 @media only screen and (min-width: 38em){
 ul#nav-list li {
 	display: inline;
+}
+
+	.banner-section{
+	background: transparent url('../images/pine-cones.jpg') no-repeat center;
+	background-size: cover;
+	padding: 5rem 0;
 }
 
 }
