@@ -22,6 +22,18 @@ body{
 	padding: 0 5px;
 }
 
+h2{
+	font-family: dancing script;
+	font-size: 60px;
+}
+
+/* ------------------- Navigation */
+
+.header-section{
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+}
 
 .nav-bar{
 	background-color: #031815;
@@ -51,9 +63,98 @@ ul#list-nav li a:hover {
 }
 
 
+/* ----------------- Banner section */
+
 img {
 	display: block;
 	margin: 0 auto;
+}
+
+.logo{
+	width:130px;
+	opacity: .7;
+}
+
+.banner-section{
+	background: transparent url('../images/pine-cones.jpg') no-repeat center;
+	background-size: cover;
+	padding:10rem 0 1rem;
+	position: in;
+	}
+
+.design-section{
+	padding: 0;
+}
+
+.design-section img{
+	width: 100%;
+	padding-bottom: .5em;
+}
+
+.photography-section{
+	padding: 0 .5em;
+}
+
+.photography-section img{
+	width: 100%;
+}
+
+.about-section{
+	padding: 0 1em;
+}
+
+.about-section p{
+	text-align: center;
+}
+
+.contact-section{
+	background-color: #cdbcef;
+}
+
+
+/* 400px */
+@media only screen and (min-width: 25em) {
+	.logo{
+	width:230px;
+	opacity: .7;
+}
+
+.banner-section{
+	background: transparent url('../images/pine-cones.jpg') no-repeat center;
+	background-size: cover;
+	padding: 10rem 0 1;
+}
+
+.design-section{
+	padding: 0 2em;
+}
+
+.design-section img{
+	width: 100%;
+}
+
+.photography-section{
+	padding: 0 2em;
+}
+
+.photography-section img{
+	width: 100%;
+}
+
+.about-section{
+	padding: 0 2em;
+}
+
+.contact-section{
+	background-color: #cdbcef;
+}
+
+}
+
+/* 604px */
+@media only screen and (min-width: 38em){
+ul#nav-list li {
+	display: inline;
 }
 
 .logo{
@@ -67,38 +168,34 @@ img {
 	padding: 10rem 0;
 }
 
+.about-section{
+	padding: 0 10em;
+}
+
+.about-section p{
+	text-align: center;
+}
+
 .design-section{
-	background-color: #a7efdd;
+	padding: 0 10em;
+}
+
+.design-section img{
+	width: 100%;
 }
 
 .photography-section{
-	background-color: #e8efad;
+	padding: 0 10em;
 }
 
-.about-section{
-	background-color: #efc1b0;
+.photography-section img{
+	width: 100%;
 }
 
 .contact-section{
 	background-color: #cdbcef;
 }
 
-@media only screen and (min-width: 25em) {
-	.banner-section{
-	background-size: cover;
-	padding: 2rem 0;
-	}
-}
 
-@media only screen and (min-width: 38em){
-ul#nav-list li {
-	display: inline;
-}
-
-	.banner-section{
-	background: transparent url('../images/pine-cones.jpg') no-repeat center;
-	background-size: cover;
-	padding: 5rem 0;
-}
 
 }
