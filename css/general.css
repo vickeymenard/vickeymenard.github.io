@@ -44,9 +44,6 @@ h2{
 	position: fixed;
 	width: 100%;
 	z-index: 100;
-}
-
-.nav-bar{
 	background-color: #031815;
 	padding: 1rem;
 }
@@ -55,24 +52,28 @@ ul#nav-list{
 	margin: 1rem 0;
 	padding: 0;
 	list-style: none;
-	text-align: right;
+	text-align: center;
+	display: inline;
 }
 
 
 ul#nav-list li a {
 	text-decoration: none;
-	padding: 10px;
+	padding: 5px;
 	width: 100px;
 	color: white;
-	text-align: center;
 	text-transform: uppercase;
+	font-size: 10px;
 }
 
 ul#list-nav li a:hover {
-	background: #8e9193;
-	color: black;
+	background: #031815;
+	color: rgba(80,191,174,1);
 }
 
+.header-li {
+	display: inline;
+}
 
 /* ----------------- Banner section */
 
@@ -87,23 +88,21 @@ ul#list-nav li a:hover {
 .banner-section{
 	background: transparent url('../images/pine-cones.jpg') no-repeat center;
 	background-size: cover;
-	padding:10rem 0 1rem;
+	padding:5rem 0 1rem;
 	position: in;
 	}
 
 /*--------------- design section */
 
-.design-section{
-	padding: 0;
-}
-
 .design-section img{
 	width: 100%;
-	padding-bottom: .5em;
+	padding: 0 3px;
+	margin: 0;
 }
 
 .design-section p{
 	text-align: center;
+	padding: 0 6px;
 }
 
 /* ---------------- photography section */
@@ -124,7 +123,7 @@ ul#list-nav li a:hover {
 /* ----------------- About Section */
 
 .about-section{
-	padding: 0 1em;
+	padding: 5px;
 }
 
 .about-section p{
@@ -159,6 +158,11 @@ ul#list-nav li a:hover {
 /* 400px */
 @media only screen and (min-width: 25em) {
 
+ul#nav-list li a {
+	padding: 5px;
+	font-size: 15px;
+}
+
 .logo{
 	width:170px;
 	opacity: .7;
@@ -170,13 +174,8 @@ ul#list-nav li a:hover {
 	padding: 10em 0 5em;
 }
 
-.design-section{
+.design-section p{
 	padding: 0 1em;
-}
-
-.design-section img{
-	width: 100%;
-	padding-bottom: .5em;
 }
 
 .photography-section{
@@ -200,7 +199,12 @@ ul#list-nav li a:hover {
 /* 604px */
 @media only screen and (min-width: 38em){
 
-ul#nav-list li {
+ul#nav-list li a {
+	padding: 15px;
+	font-size: 15px;
+}
+
+.header-li {
 	display: inline;
 }
 
@@ -220,16 +224,16 @@ ul#nav-list li {
 }
 
 .about-section p{
-	padding: 0 7em;
+	padding: 0 2em;
 	text-align: left;
 }
 
 .design-section{
-	padding: 0 6em;
+	padding: 0 1em;
 }
 
 .design-section p{
-	padding: 0 7em;
+	padding: 0 2em;
 	text-align: left
 }
 
@@ -239,11 +243,11 @@ ul#nav-list li {
 }
 
 .photography-section{
-	padding: 0 6em;
+	padding: 0 1em;
 }
 
 .photography-section p{
-	padding: 0 7em;
+	padding: 0 2em;
 	text-align: left;
 }
 
