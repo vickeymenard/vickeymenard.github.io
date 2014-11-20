@@ -24,6 +24,25 @@ body{
 
 }
 
+/* ------------------- 404 page styling */
+
+.oopsies{
+	opacity: .7;
+	z-index: 100;
+	width: 75%;
+	padding-left: 9em;
+}
+
+.oops-section p{
+	color: white;
+	padding-right: 5em;
+	text-align: right;
+	font-size: 30px;
+	text-shadow: 3px 3px 3px black;
+}
+
+/* ------------------ 404 page styling ends */
+
 h1{
 	font-family: 'Raleway', sans-serif;;
 	text-transform: uppercase;
@@ -36,6 +55,12 @@ h2{
 	font-family: dancing script;
 	font-size: 40px;
 	color: rgba(80,191,174,1);
+}
+
+.flex-img{
+	display: block;
+	width:100%;
+	margin: 0 auto;
 }
 
 /* ------------------- Navigation */
