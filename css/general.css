@@ -75,6 +75,11 @@ ul#list-nav li a:hover {
 	display: inline;
 }
 
+.nav-logo{
+	width: 25px;
+	text-align: right;
+}
+
 /* ----------------- Banner section */
 
 
