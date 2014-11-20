@@ -55,12 +55,17 @@ h2{
 	font-family: dancing script;
 	font-size: 40px;
 	color: rgba(80,191,174,1);
+	padding-top: 1em;
 }
 
 .flex-img{
 	display: block;
 	width:100%;
 	margin: 0 auto;
+}
+
+.img-bunch{
+	padding-top: 1em;
 }
 
 /* ------------------- Navigation */
@@ -137,13 +142,8 @@ ul#list-nav li a:hover {
 
 /* ---------------- photography section */
 
-.photography-section{
-	padding: 0 .5em;
-}
-
 .photography-section img{
 	width: 100%;
-	padding-bottom: .5em;
 }
 
 .photography-section p{
@@ -166,22 +166,42 @@ ul#list-nav li a:hover {
 
 /* ------------------ Contact Section */
 
-.contact-section{
-	padding: 0 1em;
-	text-align: center;
+.contact-section h2,{
+	color: white;
+	text-align: center
 }
+
+.contact-section p{
+	color: white;
+}
+
+.contact-section ul{
+	margin: 1rem 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+	display: inline;
+}
+
+.contact-section ul li{
+	text-decoration: none;
+	padding: 5px;
+	width: 100px;
+	color: white;
+}
+
+.contact-section{
+	background-color:#031815;
+	text-align: center;
+	padding: 0;
+}
+
+
 
 /* ------------------ Footer Section */
-
-.footer-section{
-	background-color: #031815;
-	width: 100%;
-	margin: 0;
-}
-
-.footer-section p{
+.footer{
 	color: white;
-	font-size: 15px;
+	font-size: 8px;
 	padding: 1em 0;
 }
 
@@ -288,6 +308,10 @@ ul#nav-list li a {
 
 .contact-section{
 	padding: 0 8em;
+}
+
+.contact-section p{
+	text-align: center;
 }
 
 
