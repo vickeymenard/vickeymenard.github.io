@@ -163,35 +163,13 @@ ul#nav-list li:active {
 }
 
 .about-section p{
-	text-align: center;
-}
-
-.icon-li{
-	width: 5px;
+	text-align: left;
 }
 
 .skills-section{
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
+	display: none;
 }
 
-.skills-section ul{
-	text-align: center;
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	overflow: hidden;
-}
-
-.skills-section li{
-	float: left;
-	padding: 2em;
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
-	list-style-type: none;
-}
 
 /* ------------------ Contact Section */
 
@@ -243,6 +221,7 @@ ul#nav-list li:active {
 .contact-section{
 	padding: 0 1em;
 }
+
 
 }
 
@@ -298,9 +277,29 @@ ul#nav-list li:active {
 	display: inline-block;
 }
 
-.skills-section li{
-
-	width: 25%;
+.skills-section{
+display: block;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
 }
+
+.skills-section ul{
+text-align: center;
+margin: 0;
+padding: 0;
+width: 100%;
+overflow: hidden;
+}
+
+.skills-section li{
+float: left;
+padding: 2em;
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+list-style-type: none;
+}
+
 
 }
