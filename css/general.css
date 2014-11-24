@@ -46,9 +46,9 @@ body{
 h1{
 	font-family: 'Raleway', sans-serif;;
 	text-transform: uppercase;
-	font-size: 16px;
+	font-size: 13px;
 	text-align: left;
-	font-weight: 400;
+	font-weight: 700;
 }
 
 h2{
@@ -76,10 +76,11 @@ h2{
 	z-index: 100;
 	background-color: #031815;
 	padding: 1rem;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
 ul#nav-list{
-	margin: 1rem 0;
+	margin: 2rem 0;
 	padding: 0;
 	list-style: none;
 	text-align: center;
@@ -106,8 +107,8 @@ ul#list-nav li a:hover {
 }
 
 .nav-logo{
-	width: 25px;
-	text-align: right;
+	width: 15px;
+	float: right;
 }
 
 /* ----------------- Banner section */
@@ -121,11 +122,14 @@ ul#list-nav li a:hover {
 }
 
 .banner-section{
-	background: transparent url('../images/pine-cones.jpg') no-repeat center;
-	background-size: cover;
-	padding:5rem 0 1rem;
-	position: in;
-	}
+	z-index: 100;
+}
+
+.banner-img{
+	padding-top: 3em;
+	width: 100%;
+	height: auto;
+}
 
 /*--------------- design section */
 
@@ -160,25 +164,36 @@ ul#list-nav li a:hover {
 	text-align: center;
 }
 
-.about-section img{
+.icon-li{
+	width: 5px;
+}
+
+.skills-section{
 	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.skills-section ul{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+.skills-section li{
+	float: left;
+	padding: 2em;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	list-style-type: none;
 }
 
 /* ------------------ Contact Section */
 
-.contact-section h2,{
-	color: white;
-	text-align: center
-}
-
 .contact-section p{
-	color: white;
-}
-
-.contact-section ul li{
-	text-decoration: none;
-	padding: 5px;
-	width: 100px;
 	color: white;
 }
 
@@ -190,6 +205,9 @@ ul#list-nav li a:hover {
 
 .contact-li{
 	display: inline-block;
+	vertical-align: center;
+	width: 30px;
+	height: auto;
 }
 
 
@@ -212,12 +230,6 @@ ul#nav-list li a {
 .logo{
 	width:170px;
 	opacity: .7;
-}
-
-.banner-section{
-	background: transparent url('../images/pine-cones.jpg') no-repeat center;
-	background-size: cover;
-	padding: 10em 0 5em;
 }
 
 .design-section p{
@@ -257,12 +269,6 @@ ul#nav-list li a {
 .logo{
 	width:400px;
 	opacity: .7;
-}
-
-.banner-section{
-	background: transparent url('../images/pine-cones.jpg') no-repeat center;
-	background-size: cover;
-	padding: 11rem 0;
 }
 
 .about-section{
@@ -310,6 +316,13 @@ ul#nav-list li a {
 	text-align: center;
 }
 
+.icon-li{
+	display: inline-block;
+}
 
+.skills-section li{
+
+	width: 25%;
+}
 
 }
