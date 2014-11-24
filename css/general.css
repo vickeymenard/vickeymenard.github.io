@@ -62,29 +62,26 @@ h2{
 	margin: 0 auto;
 }
 
-.img-bunch{
-	padding-top: 1em;
-}
-
 /* ------------------- Navigation */
 
 .header-section{
 	position: fixed;
+	overflow: hidden;
 	width: 100%;
 	z-index: 100;
 	background-color: #031815;
-	padding: 1rem;
+	padding: 20px 0;
 	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
 ul#nav-list{
-	margin: 2rem 0;
-	padding: 0;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
 	list-style: none;
-	text-align: center;
-	display: inline;
 }
-
 
 ul#nav-list li a {
 	text-decoration: none;
@@ -92,21 +89,28 @@ ul#nav-list li a {
 	width: 100px;
 	color: white;
 	text-transform: uppercase;
-	font-size: 10px;
+	font-size: 15px;
 }
 
-ul#list-nav li a:hover {
-	background: #031815;
+ul#nav-list li a:hover {
+	color: rgba(80,191,174,1);
+}
+
+ul#nav-list li:active {
 	color: rgba(80,191,174,1);
 }
 
 .header-li {
-	display: inline;
+	float: right;
+	padding-top: 1.5em;
+	padding-right: 5px;
 }
 
 .nav-logo{
-	width: 15px;
-	float: right;
+	top: 0;
+	width: 60px;
+	height: auto;
+	float: left;
 }
 
 /* ----------------- Banner section */
@@ -124,7 +128,7 @@ ul#list-nav li a:hover {
 }
 
 .banner-img{
-	padding-top: 3em;
+	padding-top: 6em;
 	width: 100%;
 	height: auto;
 }
@@ -220,16 +224,6 @@ ul#list-nav li a:hover {
 /* 400px */
 @media only screen and (min-width: 25em) {
 
-ul#nav-list li a {
-	padding: 5px;
-	font-size: 15px;
-}
-
-.logo{
-	width:170px;
-	opacity: .7;
-}
-
 .design-section p{
 	padding: 0 1em;
 }
@@ -254,20 +248,6 @@ ul#nav-list li a {
 
 /* 604px */
 @media only screen and (min-width: 38em){
-
-ul#nav-list li a {
-	padding: 15px;
-	font-size: 15px;
-}
-
-.header-li {
-	display: inline;
-}
-
-.logo{
-	width:400px;
-	opacity: .7;
-}
 
 .about-section{
 	padding: 0 6em;
