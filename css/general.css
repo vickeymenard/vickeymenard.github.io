@@ -175,14 +175,6 @@ ul#list-nav li a:hover {
 	color: white;
 }
 
-.contact-section ul{
-	margin: 1rem 0;
-	padding: 0;
-	list-style: none;
-	text-align: center;
-	display: inline;
-}
-
 .contact-section ul li{
 	text-decoration: none;
 	padding: 5px;
@@ -194,6 +186,10 @@ ul#list-nav li a:hover {
 	background-color:#031815;
 	text-align: center;
 	padding: 0;
+}
+
+.contact-li{
+	display: inline-block;
 }
 
 
