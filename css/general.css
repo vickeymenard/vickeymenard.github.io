@@ -21,6 +21,7 @@ body{
 	margin: 0;
 	font-family:'Raleway', sans-serif;
 	font-weight: 300;
+	color: #979b95;
 
 }
 
@@ -47,7 +48,7 @@ h1{
 	font-size: 20px;
 	text-align: left;
 	font-weight: 700;
-	color:#ebeee8;
+	color: rgba(80,191,174,1);
 	padding-top: 3em;
 	padding-bottom: 1.5em;
 	margin: 0;
@@ -75,7 +76,7 @@ h2{
 	width: 100%;
 	z-index: 100;
 	background-color: #031815;
-	padding: 20px 0;
+	padding-bottom: 20px;
 	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
@@ -103,7 +104,7 @@ ul#nav-list li a:hover {
 	color: rgba(80,191,174,1);
 }
 
-ul#nav-list li:active {
+ul#nav-list li a:active {
 	color: rgba(80,191,174,1);
 }
 
@@ -137,7 +138,7 @@ ul#nav-list li:active {
 
 .banner-img{
 	display: block;
-	padding-top: 5em;
+	padding-top: 3.8em;
 	width: 100%;
 	height: auto;
 }
@@ -145,35 +146,56 @@ ul#nav-list li:active {
 /* ----------------- About Section */
 
 .about-section{
-	padding: 10px;
-	background-color: rgba(81,191,174,1);
 	padding-bottom: 4em;
-	margin-bottom: 4em;
 }
 
 .about-section p{
 	text-align: left;
-	color: white;
+	color: #979b95;
 }
 
 .about-section img{
 	display: inline-block;
+	width: 100%;
+	text-align: center;
+	padding: 3px;
 }
 
-.skills-icon{
+/*--------------- Skills section */
+
+.skill-icon{
 	float:left;
-	width: 15%;
+	width: 35%;
+	background-color: rgba(81,191,174,1);
 }
 
 .skill-text{
 	float: right;
-	width: 83%;
+	width: 65%;
+	padding: 1em 0;
 }
 
-.my-photos{
-	padding-bottom: 1.5em;
-	text-align: center;
+.skill-text h3{
+	margin: 0;
 }
+
+.skill-text p{
+	margin: 0;
+}
+
+.skill{
+	border-top: 1px solid rgba(81,191,174,1);
+	padding-bottom: 5px;
+	max-width: 1000px;
+}
+
+h3{
+	padding-top: 0;
+	padding-bottom: 0;
+	color: rgba(81,191,174,1);
+}
+
+
 
 /*--------------- design section */
 
@@ -192,6 +214,7 @@ ul#nav-list li:active {
 
 .photography-section img{
 	width: 100%;
+	display: block;
 }
 
 .photography-section p{
@@ -206,10 +229,11 @@ ul#nav-list li:active {
 
 .contact-section p{
 	color: white;
+	text-transform: uppercase;
 }
 
 .contact-section{
-	background-color:#031815;
+	background-color: rgba(81,191,174,1);
 	text-align: center;
 	padding: 0;
 }
@@ -221,6 +245,11 @@ ul#nav-list li:active {
 	height: auto;
 }
 
+.contact-section h2{
+	color: white;
+	border-bottom: 1px solid white;
+}
+
 /* ------------------ Footer Section */
 .footer{
 	color: white;
@@ -228,7 +257,7 @@ ul#nav-list li:active {
 	padding: 1em 0;
 }
 
-/* 400px */
+/* Small Screen 400 px */
 @media only screen and (min-width: 25em) {
 .nav-logo{
 	display:block;
@@ -243,9 +272,43 @@ ul#nav-list{
 	width: auto;
 }
 
+.header-section{
+	padding: 20px 0;
+	padding-right: 10px;
 }
 
-/* 604px */
+.banner-img{
+	padding-top: 6.2em;
+}
+
+
+
+}
+
+/* Small-medium screen 512	px */
+@media only screen and (min-width: 32em) {
+}
+
+.about-section p{
+	padding: 0 2em;
+}
+
+.about-section img{
+	width: ;
+}
+
+.skill-section{
+	padding: 0 2em;
+}
+
+.skill-icon{
+	width: 25%;
+}
+
+
+
+
+/* Medium screen 604 px */
 @media only screen and (min-width: 38em){
 
 .about-section{
@@ -257,6 +320,21 @@ h1{
 	font-size: 30px;
 }
 
+.header-section{
+	padding: 20px 0;
+	padding-right: 40px;
+}
 
+}
 
+/* Large screen 800 px */
+@media only screen and (min-width: 50em) {
+
+.about-section{
+	padding: 0 2em;
+}
+}
+
+/* Large screen 960 px */
+@media only screen and (min-width: 60em) {
 }
