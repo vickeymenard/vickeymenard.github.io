@@ -45,15 +45,17 @@ body{
 h1{
 	font-family: 'Raleway', sans-serif;;
 	text-transform: uppercase;
-	font-size: 20px;
+	font-size: 16px;
 	text-align: left;
 	font-weight: 700;
-	color: rgba(80,191,174,1);
-	padding-top: 3em;
-	padding-bottom: 1.5em;
+	color: white;
+	padding-top: 1em;
+	padding-bottom: 1em;
 	padding-left: 1em;
 	padding-right: 1em;
 	margin: 0;
+	background-color: rgba(80,191,174,1);
+	margin-bottom: 1.5em;
 }
 
 h2{
@@ -161,10 +163,10 @@ ul#nav-list li a:active {
 }
 
 .about-section p{
-	text-align: left;
+	text-align: center;
 	color: #979b95;
-	padding-left: 1em;
-	padding-right: 1em;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .about-section img{
@@ -186,17 +188,19 @@ ul#nav-list li a:active {
 .skill-text{
 	float: right;
 	width: 65%;
+	padding-left: 10px;
 }
 
 .skill-text h3{
 	margin: 0;
-	font-size: 16px;
+	font-size: 18px;
 	padding-top: 10px;
+	color: rgba(81,191,174,1);
 }
 
 .skill-text p{
 	margin: 0;
-	font-size: 13px;
+	font-size: 16px;
 }
 
 .skill{
@@ -205,15 +209,6 @@ ul#nav-list li a:active {
 	margin-bottom: 5px;
 	max-width: 1000px;
 }
-
-
-h3{
-	padding-top: 0;
-	padding-bottom: 0;
-	color: rgba(81,191,174,1);
-}
-
-
 
 /*--------------- design section */
 
@@ -224,9 +219,9 @@ h3{
 }
 
 .design-section p{
-	text-align: left;
-	padding-left: 1em;
-	padding-right: 1em;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
 	padding-bottom: 1.5em;
 }
 
@@ -323,23 +318,39 @@ ul#nav-list{
 	padding-top: 6.2em;
 }
 
+h1{
+	font-size: 20px;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	margin-bottom: 1.5em;
+}
+
 }
 
 /* Small-medium screen 512	px */
 @media only screen and (min-width: 32em) {
-}
 
-.skill-section{
-	padding: 0 2em;
+.about-section p{
+	padding-left: 3em;
+	padding-right: 3em;
 }
 
 .skill-icon{
 	width: 25%;
 }
 
-.about-section p{
-	padding-left: 3em;
-	padding-right: 3em;
+.skill-text{
+	width: 75%;
+}
+
+.skill-text h3{
+	font-size: 23px;
+
+}
+
+.skill-text p{
+	margin: 0;
+	font-size: 18px;
 }
 
 .design-section p{
@@ -352,17 +363,13 @@ ul#nav-list{
 	padding-right: 3em;
 }
 
-
 }
-
-
 
 
 /* Medium screen 604 px */
 @media only screen and (min-width: 38em){
 
 .about-section{
-	padding: 0 3em;
 	padding-bottom: 4em;
 }
 
@@ -375,8 +382,35 @@ h1{
 	padding-right: 40px;
 }
 
+.skill-icon{
+	width: 40%;
+}
+
+.skill-text{
+	width: 60%;
+}
+
+.skill-text h3{
+	font-size: 18px;
+
+}
+
+.skill-text p{
+	font-size: 16px;
+}
+
+
 .contact-section h2{
 	width: 56%;
+}
+
+}
+
+/* Large screen 700 px */
+@media only screen and (min-width: 43.7em) {
+
+h1{
+	font-size: 33px;
 }
 
 }
@@ -384,11 +418,66 @@ h1{
 /* Large screen 800 px */
 @media only screen and (min-width: 50em) {
 
-.about-section{
-	padding: 0 2em;
+.skill-icon{
+	width: 35%;
 }
+
+.skill-text{
+	width: 65%;
+}
+
+.skill-text h3{
+	font-size: 20px;
+
+}
+
+.skill-text p{
+	font-size: 18px;
+}
+
+
 }
 
 /* Large screen 960 px */
 @media only screen and (min-width: 60em) {
+
+.about-section p{
+	padding-left: 9em;
+	padding-right: 9em;
+}
+
+h1{
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+.skill-icon{
+	width: 25%;
+}
+
+.skill-text{
+	width: 75%;
+}
+
+.skill-text h3{
+	font-size: 20px;
+
+}
+
+.skill-text p{
+	font-size: 18px;
+}
+
+
+
+}
+
+/* Large screen 1188 px */
+@media only screen and (min-width: 74.250em) {
+
+h1{
+	padding-left: 4em;
+	padding-right: 4em;
+}
+
 }
