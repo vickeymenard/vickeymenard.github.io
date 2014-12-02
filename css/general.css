@@ -237,7 +237,7 @@ ul#nav-list li a:active {
 }
 
 .photography-section p{
-	text-align: left;
+	text-align: center;
 	padding-left: 1em;
 	padding-right: 1em;
 	padding-bottom: 1.5em;
@@ -277,7 +277,7 @@ ul#nav-list li a:active {
 .contact-li{
 	display: inline-block;
 	padding-left: 0;
-	width: 50px;
+	width: 45px;
 	text-align: center;
 	padding
 }
