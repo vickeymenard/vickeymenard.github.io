@@ -93,7 +93,7 @@ ul#nav-list li a {
 	width: 100px;
 	color: white;
 	text-transform: uppercase;
-	font-size: 15px;
+	font-size: 13px;
 }
 
 ul#nav-list li a:hover {
@@ -111,6 +111,7 @@ ul#nav-list li:active {
 }
 
 .nav-logo{
+	display:none;
 	top: 0;
 	width: 60px;
 	height: auto;
@@ -223,6 +224,13 @@ ul#nav-list li:active {
 
 /* 400px */
 @media only screen and (min-width: 25em) {
+.nav-logo{
+	display:block;
+	top: 0;
+	width: 60px;
+	height: auto;
+	float: left;
+}
 
 
 
