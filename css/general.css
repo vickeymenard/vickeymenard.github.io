@@ -44,13 +44,15 @@ body{
 h1{
 	font-family: 'Raleway', sans-serif;;
 	text-transform: uppercase;
-	font-size: 13px;
+	font-size: 16px;
 	text-align: left;
 	font-weight: 700;
+	color:#ebeee8
 }
 
 h2{
-	font-family: dancing script;
+	font-family: raleway;
+	font-weight: 700;
 	font-size: 40px;
 	color: rgba(80,191,174,1);
 	padding-top: 1em;
@@ -163,10 +165,13 @@ ul#nav-list li:active {
 
 .about-section{
 	padding: 5px;
+	background-color: rgba(81,191,174,1);
+	padding-bottom: 4em;
 }
 
 .about-section p{
 	text-align: left;
+	color: white;
 }
 
 .about-section img{
@@ -224,33 +229,13 @@ ul#nav-list li:active {
 @media only screen and (min-width: 38em){
 
 .about-section{
-	padding: 0 1em;
+	padding: 0 3em;
+	padding-bottom: 4em;
 }
 
-.about-section p{
-	padding: 0 4em;
-	text-align: left;
+h1{
+	font-size: 30px;
 }
-
-.design-section{
-	padding: 0 1em;
-}
-
-.design-section p{
-	padding: 0 2em;
-	text-align: left
-}
-
-
-.photography-section{
-	padding: 0 1em;
-}
-
-.photography-section p{
-	padding: 0 2em;
-	text-align: left;
-}
-
 
 
 
