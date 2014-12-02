@@ -50,6 +50,7 @@ h1{
 	color:#ebeee8;
 	padding-top: 3em;
 	padding-bottom: 1.5em;
+	margin: 0;
 }
 
 h2{
@@ -79,6 +80,8 @@ h2{
 }
 
 ul#nav-list{
+	text-align: center;
+	padding: 0;
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -105,9 +108,9 @@ ul#nav-list li:active {
 }
 
 .header-li {
-	float: right;
+	display: inline-block;
 	padding-top: 1.5em;
-	padding-right: 5px;
+	/*padding-right: 5px;*/
 }
 
 .nav-logo{
@@ -133,9 +136,43 @@ ul#nav-list li:active {
 }
 
 .banner-img{
-	padding-top: 6em;
+	display: block;
+	padding-top: 5em;
 	width: 100%;
 	height: auto;
+}
+
+/* ----------------- About Section */
+
+.about-section{
+	padding: 10px;
+	background-color: rgba(81,191,174,1);
+	padding-bottom: 4em;
+	margin-bottom: 4em;
+}
+
+.about-section p{
+	text-align: left;
+	color: white;
+}
+
+.about-section img{
+	display: inline-block;
+}
+
+.skills-icon{
+	float:left;
+	width: 15%;
+}
+
+.skill-text{
+	float: right;
+	width: 83%;
+}
+
+.my-photos{
+	padding-bottom: 1.5em;
+	text-align: center;
 }
 
 /*--------------- design section */
@@ -143,6 +180,7 @@ ul#nav-list li:active {
 .design-section img{
 	width: 100%;
 	margin: 0;
+	display: block;
 }
 
 .design-section p{
@@ -163,38 +201,6 @@ ul#nav-list li:active {
 .photography-section{
 	padding-bottom: 4em;
 }
-
-/* ----------------- About Section */
-
-.about-section{
-	padding: 5px;
-	background-color: rgba(81,191,174,1);
-	padding-bottom: 4em;
-	margin-bottom: 4em;
-}
-
-.about-section p{
-	text-align: left;
-	color: white;
-}
-
-.about-section img{
-	display: inline-block;
-}
-
-.skills-info{
-	float:right;
-}
-
-.skills-section-list img{
-	max-width: 100px;
-}
-
-.my-photos{
-	padding-bottom: 1.5em;
-}
-}
-
 
 /* ------------------ Contact Section */
 
@@ -232,7 +238,10 @@ ul#nav-list li:active {
 	float: left;
 }
 
-
+ul#nav-list{
+	float: right;
+	width: auto;
+}
 
 }
 
