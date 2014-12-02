@@ -51,6 +51,8 @@ h1{
 	color: rgba(80,191,174,1);
 	padding-top: 3em;
 	padding-bottom: 1.5em;
+	padding-left: 1em;
+	padding-right: 1em;
 	margin: 0;
 }
 
@@ -59,7 +61,6 @@ h2{
 	font-weight: 700;
 	font-size: 40px;
 	color: rgba(80,191,174,1);
-	padding-top: 1em;
 }
 
 .flex-img{
@@ -152,6 +153,8 @@ ul#nav-list li a:active {
 .about-section p{
 	text-align: left;
 	color: #979b95;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
 .about-section img{
@@ -159,6 +162,7 @@ ul#nav-list li a:active {
 	width: 100%;
 	text-align: center;
 	padding: 3px;
+	padding-bottom: 1.5em;
 }
 
 /*--------------- Skills section */
@@ -189,6 +193,7 @@ ul#nav-list li a:active {
 	max-width: 1000px;
 }
 
+
 h3{
 	padding-top: 0;
 	padding-bottom: 0;
@@ -207,7 +212,13 @@ h3{
 
 .design-section p{
 	text-align: left;
-	padding: 0 6px;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-bottom: 1.5em;
+}
+
+.design-section{
+	padding-top: 3em;
 }
 
 /* ---------------- photography section */
@@ -219,35 +230,48 @@ h3{
 
 .photography-section p{
 	text-align: left;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-bottom: 1.5em;
 }
 
 .photography-section{
+	padding-top: 3em;
 	padding-bottom: 4em;
 }
 
 /* ------------------ Contact Section */
 
-.contact-section p{
-	color: white;
-	text-transform: uppercase;
-}
-
 .contact-section{
 	background-color: rgba(81,191,174,1);
 	text-align: center;
-	padding: 0;
-}
-
-.contact-li{
-	display: inline-block;
-	vertical-align: center;
-	width: 30px;
-	height: auto;
+	color: white;
 }
 
 .contact-section h2{
 	color: white;
+	padding-top: 1em;
+	padding-bottom: 25px;
 	border-bottom: 1px solid white;
+	text-align: center;
+	width: 75%;
+	display: inline-block;
+}
+
+.contact-info p{
+	font-size: 25px;
+}
+
+.phone-number{
+	font-weight: 700;
+}
+
+.contact-li{
+	display: inline-block;
+	padding-left: 0;
+	width: 18%;
+	text-align: center;
+	padding
 }
 
 /* ------------------ Footer Section */
@@ -287,14 +311,6 @@ ul#nav-list{
 
 /* Small-medium screen 512	px */
 @media only screen and (min-width: 32em) {
-}
-
-.about-section p{
-	padding: 0 2em;
-}
-
-.about-section img{
-	width: ;
 }
 
 .skill-section{
