@@ -137,7 +137,6 @@ ul#nav-list li:active {
 
 .design-section img{
 	width: 100%;
-	padding: 0 3px;
 	margin: 0;
 }
 
@@ -156,6 +155,10 @@ ul#nav-list li:active {
 	text-align: left;
 }
 
+.photography-section{
+	padding-bottom: 4em;
+}
+
 /* ----------------- About Section */
 
 .about-section{
@@ -164,6 +167,10 @@ ul#nav-list li:active {
 
 .about-section p{
 	text-align: left;
+}
+
+.about-section img{
+	display: inline-block;
 }
 
 .skills-section{
@@ -199,8 +206,6 @@ ul#nav-list li:active {
 	height: auto;
 }
 
-
-
 /* ------------------ Footer Section */
 .footer{
 	color: white;
@@ -211,25 +216,6 @@ ul#nav-list li:active {
 /* 400px */
 @media only screen and (min-width: 25em) {
 
-.design-section p{
-	padding: 0 1em;
-}
-
-.photography-section{
-	padding: 0 1em;
-}
-
-.photography-section img{
-	width: 100%;
-}
-
-.about-section{
-	padding: 0 1em;
-}
-
-.contact-section{
-	padding: 0 1em;
-}
 
 
 }
@@ -238,11 +224,11 @@ ul#nav-list li:active {
 @media only screen and (min-width: 38em){
 
 .about-section{
-	padding: 0 6em;
+	padding: 0 1em;
 }
 
 .about-section p{
-	padding: 0 2em;
+	padding: 0 4em;
 	text-align: left;
 }
 
@@ -255,10 +241,6 @@ ul#nav-list li:active {
 	text-align: left
 }
 
-.design-section img{
-	width: 100%;
-	padding-bottom: 0;
-}
 
 .photography-section{
 	padding: 0 1em;
@@ -269,47 +251,7 @@ ul#nav-list li:active {
 	text-align: left;
 }
 
-.photography-section img{
-	width: 100%;
-	padding-bottom: 0;
-}
 
-.contact-section{
-	padding: 0 8em;
-}
-
-.contact-section p{
-	text-align: center;
-}
-
-
-.skills-section{
-display: inline-block;
-width: 100%;
-margin-left: auto;
-margin-right: auto;
-}
-
-.skills-section ul{
-text-align: center;
-margin: 0;
-padding: 0;
-width: 100%;
-overflow: hidden;
-}
-
-.skills-section li{
-float: left;
-padding: 2em;
-width: 50%;
-margin-left: auto;
-margin-right: auto;
-list-style-type: none;
-}
-
-.skills-section-list{
-	display: none;
-}
 
 
 }
