@@ -196,14 +196,14 @@ ul#nav-list li a:active {
 
 .skill-text h3{
 	margin: 0;
-	font-size: 18px;
+	font-size: 17px;
 	padding-top: 10px;
 	color: rgba(87,54,76,1);
 }
 
 .skill-text p{
 	margin: 0;
-	font-size: 16px;
+	font-size: 14px;
 }
 
 .skill{
@@ -293,9 +293,8 @@ ul#nav-list li a:active {
 .contact-li{
 	display: inline-block;
 	padding-left: 0;
-	width: 45px;
+	width: 40px;
 	text-align: center;
-	padding
 }
 
 /* ------------------ Footer Section */
