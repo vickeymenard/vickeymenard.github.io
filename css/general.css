@@ -104,11 +104,11 @@ ul#nav-list li a {
 }
 
 ul#nav-list li a:hover {
-	color: rgba(80,191,174,1);
+	color: rgba(180,214,193,1);
 }
 
 ul#nav-list li a:active {
-	color: rgba(80,191,174,1);
+	color: rgba(180,214,193,1);
 }
 
 .header-li {
