@@ -46,7 +46,7 @@ h1{
 	font-family: 'Raleway', sans-serif;;
 	text-transform: uppercase;
 	font-size: 16px;
-	text-align: left;
+	text-align: center;
 	font-weight: 700;
 	color: white;
 	padding-top: 1em;
@@ -175,33 +175,36 @@ ul#nav-list li a:active {
 
 .skill-icon{
 	float:left;
-	width: 35%;
-	background-color: rgba(87,54,76,1);
+	width: 30%;
+	margin-bottom: 8px;
+	padding-right: 15px;
+	border-right: 1px solid rgba(87,54,76,1);
 }
 
 .skill-text{
 	float: right;
 	width: 65%;
-	padding-left: 10px;
 }
 
 .skill-text h3{
 	margin: 0;
-	font-size: 17px;
-	padding-top: 10px;
+	font-size: 19px;
 	color: rgba(87,54,76,1);
 }
 
 .skill-text p{
 	margin: 0;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 .skill{
-	border-top: 1px solid rgba(180,214,193,1);
-	border-bottom: 1px solid rgba(180,214,193,1);
-	margin-bottom: 5px;
+	margin-bottom: 20px;
 	max-width: 1000px;
+}
+
+.skill-section{
+	max-width: 300px;
+	margin: 0 auto;
 }
 
 /*--------------- design section */
@@ -250,6 +253,8 @@ ul#nav-list li a:active {
 	background-color: rgba(87,54,76,1);
 	text-align: center;
 	color: white;
+	position:relative;
+	z-index: 101;
 }
 
 .contact-section h2{
@@ -288,6 +293,10 @@ ul#nav-list li a:active {
 	text-align: center;
 }
 
+.contact-icons{
+	padding:0;
+}
+
 /* ------------------ Footer Section */
 .footer{
 	color: white;
@@ -324,7 +333,7 @@ ul#nav-list{
 }
 
 h1{
-	font-size: 20px;
+	font-size: 18px;
 	padding-top: 2em;
 	padding-bottom: 2em;
 	margin-bottom: 1.5em;
@@ -352,18 +361,14 @@ h1{
 	width: 25%;
 }
 
-.skill-text{
-	width: 75%;
-}
-
 .skill-text h3{
-	font-size: 23px;
-
+	font-size: 20px;
+	margin-left: -15px;
 }
 
 .skill-text p{
-	margin: 0;
-	font-size: 18px;
+	font-size: 17px;
+	margin-left: -15px;
 }
 
 .design-section p{
@@ -374,6 +379,15 @@ h1{
 .photography-section p{
 	padding-left: 3em;
 	padding-right: 3em;
+}
+
+.my-photos{
+	max-width: 470px;
+	margin: 0 auto;
+}
+
+.skill-section{
+	max-width: 340px;
 }
 
 }
@@ -387,7 +401,7 @@ h1{
 }
 
 h1{
-	font-size: 30px;
+	font-size: 20px;
 }
 
 .header-section{
@@ -395,20 +409,27 @@ h1{
 }
 
 .skill-icon{
-	width: 40%;
-}
-
-.skill-text{
-	width: 60%;
+	width: 25%;
 }
 
 .skill-text h3{
 	font-size: 18px;
+	margin-left: -15px;
 
 }
 
 .skill-text p{
-	font-size: 16px;
+	margin-left: -15px;
+	font-size: 15px;
+}
+
+.skill-section{
+	max-width: 600px;
+}
+
+.my-photos{
+	max-width: 500px;
+	margin: 0 auto;
 }
 
 
@@ -422,7 +443,27 @@ h1{
 @media only screen and (min-width: 43.7em) {
 
 h1{
-	font-size: 33px;
+	font-size: 18px;
+}
+
+.skill-icon{
+	width: 25%;
+}
+
+.skill-text h3{
+	font-size: 18px;
+	margin-left: -15px;
+
+}
+
+.skill-text p{
+	margin-left: -15px;
+	font-size: 15px;
+	padding-right: 20px;
+}
+
+.skill-section{
+	max-width: 700px;
 }
 
 }
@@ -430,66 +471,91 @@ h1{
 /* Large screen 800 px */
 @media only screen and (min-width: 50em) {
 
-.skill-icon{
-	width: 35%;
-}
-
-.skill-text{
-	width: 65%;
-}
-
-.skill-text h3{
+h1{
 	font-size: 20px;
-
 }
 
-.skill-text p{
-	font-size: 18px;
+.skill-section{
+	max-width: 700px;
 }
 
+.about-section p{
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.design-section p{
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.photography-section p{
+	max-width: 700px;
+	margin: 0 auto;
+}
 
 }
 
 /* Large screen 960 px */
 @media only screen and (min-width: 60em) {
 
-.about-section p{
-	padding-left: 9em;
-	padding-right: 9em;
-}
-
 h1{
-	padding-left: 2em;
-	padding-right: 2em;
+	font-size: 23px;
 }
 
-.skill-icon{
-	width: 25%;
+.skill-section{
+	max-width: 1000px;
 }
 
-.skill-text{
-	width: 75%;
+.about-section p{
+	max-width: 800px;
 }
 
-.skill-text h3{
-	font-size: 20px;
-
+.design-section p{
+	max-width: 800px;
+ margin: 0 auto;
 }
 
-.skill-text p{
-	font-size: 18px;
+.photography-section p{
+	max-width: 800px;
+ margin: 0 auto;
 }
 
-
-
+.photo-img{
+	max-width: 850px;
+	margin: 0 auto;
+}
 }
 
 /* Large screen 1188 px */
 @media only screen and (min-width: 74.250em) {
 
 h1{
-	padding-left: 4em;
-	padding-right: 4em;
+	font-size: 25px;
+}
+
+.skill-section{
+	max-width: 1200px;
+}
+
+.skill-icon{
+	width: 30%;
+}
+
+.skill-text h3{
+	font-size: 18px;
+	padding-left: 10px;
+
+}
+
+.skill-text p{
+	font-size: 15px;
+	padding-left: 15px;
+}
+
+.photo-img{
+	max-width: 80%;
+
 }
 
 }
