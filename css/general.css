@@ -79,7 +79,6 @@ h2{
 	width: 100%;
 	z-index: 100;
 	background-color: rgba(87,54,76,1);
-	padding-bottom: 20px;
 	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
@@ -92,6 +91,7 @@ ul#nav-list{
 	margin-top: 0;
 	margin-bottom: 0;
 	list-style: none;
+	padding-bottom: 1em;
 }
 
 ul#nav-list li a {
@@ -119,9 +119,7 @@ ul#nav-list li a:active {
 
 .nav-logo-2{
 	display:none;
-	top: 0;
 	width: 60px;
-	height: auto;
 	float: left;
 }
 
@@ -137,21 +135,13 @@ ul#nav-list li a:active {
 
 /* ----------------- Banner section */
 
-
-.logo{
-	width:130px;
-	opacity: .7;
-	display: block;
-	margin: 0 auto;
-}
-
 .banner-section{
 	z-index: 100;
 }
 
 .banner-img{
 	display: block;
-	padding-top: 3.8em;
+	padding-top: 3.6em;
 	width: 100%;
 	height: auto;
 }
@@ -179,6 +169,7 @@ ul#nav-list li a:active {
 	padding: 3px;
 	padding-bottom: 1.5em;
 }
+
 
 /*--------------- Skills section */
 
@@ -308,9 +299,7 @@ ul#nav-list li a:active {
 @media only screen and (min-width: 25em) {
 .nav-logo-2{
 	display:block;
-	top: 0;
 	width: 60px;
-	height: auto;
 	float: left;
 	margin-left: 10px;
 }
@@ -325,12 +314,13 @@ ul#nav-list{
 }
 
 .header-section{
-	padding: 20px 0;
 	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
 }
 
 .banner-img{
-	padding-top: 6.2em;
+	padding-top: 3.7em;
 }
 
 h1{
@@ -338,6 +328,14 @@ h1{
 	padding-top: 2em;
 	padding-bottom: 2em;
 	margin-bottom: 1.5em;
+}
+
+.design-section{
+	padding-top: 4em;
+}
+
+.photography-section{
+	padding-top: 4em;
 }
 
 }
@@ -393,7 +391,6 @@ h1{
 }
 
 .header-section{
-	padding: 20px 0;
 	padding-right: 40px;
 }
 
