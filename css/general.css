@@ -277,6 +277,7 @@ ul#nav-list li a:active {
 	color: rgba(180,214,193,1);
 	margin-bottom: 0;
 	padding-bottom: 2em;
+	text-decoration: none;
 }
 
 .email{
