@@ -244,6 +244,10 @@ ul#nav-list li a:active {
 	padding-top: 2em;
 }
 
+.behance-link a{
+	color: #59dfb4;
+}
+
 /* ---------------- photography section */
 
 .photography-section img{
