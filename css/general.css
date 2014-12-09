@@ -21,9 +21,10 @@ body{
 	margin: 0;
 	font-family:'Raleway', sans-serif;
 	font-weight: 300;
-	color: rgba(142,168,152,1);
-
+	color: #8f8f8f;
 }
+
+
 
 /* ------------------- 404 page styling */
 
@@ -54,15 +55,20 @@ h1{
 	padding-left: 1em;
 	padding-right: 1em;
 	margin: 0;
-	background-color: black;
+	background-color: #59dfb4;
 	margin-bottom: 1.5em;
+	box-shadow: 0px -4px 5px 0px rgba(0,0,0,0,2);
 }
 
 h2{
 	font-family: raleway;
 	font-weight: 700;
 	font-size: 40px;
-	color: rgba(87,54,76,1);
+	color: #59dfb4;
+}
+
+p{
+	padding-bottom: 16px;
 }
 
 .flex-img{
@@ -79,7 +85,7 @@ h2{
 	width: 100%;
 	z-index: 100;
 	background-color: #151515;
-	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+	box-shadow: 0 4px 4px rgba(0,0,0,0.3);
 }
 
 ul#nav-list{
@@ -160,6 +166,7 @@ ul#nav-list li a:active {
 	text-align: center;
 	padding-left: 20px;
 	padding-right: 20px;
+	color: #8f8f8f;
 }
 
 .about-section img{
@@ -178,7 +185,7 @@ ul#nav-list li a:active {
 	width: 30%;
 	margin-bottom: 8px;
 	padding-right: 15px;
-	border-right: 1px solid rgba(87,54,76,1);
+	border-right: 1px solid #8f8f8f;
 }
 
 .skill-text{
@@ -189,7 +196,7 @@ ul#nav-list li a:active {
 .skill-text h3{
 	margin: 0;
 	font-size: 19px;
-	color: rgba(87,54,76,1);
+	color: #151515;
 }
 
 .skill-text p{
@@ -205,6 +212,9 @@ ul#nav-list li a:active {
 .skill-section{
 	max-width: 300px;
 	margin: 0 auto;
+	padding-bottom: 2em;
+	border-top: 2px solid #59dfb4;
+	border-bottom: 2px solid #59dfb4;
 }
 
 /*--------------- design section */
@@ -257,7 +267,7 @@ ul#nav-list li a:active {
 /* ------------------ Contact Section */
 
 .contact-section{
-	background-color: rgba(87,54,76,1);
+	background-color: #151515;
 	text-align: center;
 	color: white;
 	position:relative;
@@ -265,17 +275,17 @@ ul#nav-list li a:active {
 }
 
 .contact-section h2{
-	color: white;
+	color: #59dfb4;
 	padding-top: 1em;
 	padding-bottom: 25px;
-	border-bottom: 1px solid white;
+	border-bottom: 1px solid #59dfb4;
 	text-align: center;
 	display: inline-block;
 }
 
 .contact-info p{
 	font-size: 25px;
-	color: rgba(180,214,193,1);
+	color: white;
 	margin-top: 0;
 }
 
@@ -551,7 +561,7 @@ h1{
 
 .skill-text p{
 	font-size: 15px;
-	padding-left: 15px;
+	padding-left: 10px;
 }
 
 .photo-img{
