@@ -209,6 +209,7 @@ ul#nav-list li a:active {
 }
 
 .skill{
+	margin-top: 30px;
 	margin-bottom: 20px;
 	max-width: 1000px;
 }
@@ -537,6 +538,7 @@ h1{
 .about-section p{
 	max-width: 700px;
 	margin: 0 auto;
+	padding: 10px;
 }
 
 .design-section p{
@@ -559,7 +561,12 @@ h1{
 }
 
 .about-section p{
-	max-width: 800px;
+	max-width: 700px;
+}
+
+.quote{
+	width: 60%;
+	padding-bottom: 20px;
 }
 
 .design-section p{
@@ -585,12 +592,18 @@ h1{
 	font-size: 25px;
 }
 
+.quote{
+	width: 60%;
+	padding-bottom: 20px;
+}
+
 .photo-img{
 	max-width: 80%;
 }
 
-.about-sections img{
-	padding-left: 160px;
+.about-section img{
+	padding-left: 140px;
+	width: 70%;
 }
 
 }
