@@ -84,7 +84,7 @@ p{
 	overflow: hidden;
 	width: 100%;
 	z-index: 100;
-	background-color: #151515;
+	background-color: rgba(35,34,35,.9);
 	box-shadow: 0 4px 4px rgba(0,0,0,0.3);
 }
 
@@ -102,7 +102,7 @@ ul#nav-list{
 
 ul#nav-list li a {
 	text-decoration: none;
-	padding: 5px;
+	padding: 15px;
 	width: 100px;
 	color: #59dfb4;
 	text-transform: uppercase;
@@ -148,7 +148,8 @@ ul#nav-list li a:active {
 
 .banner-img{
 	display: block;
-	padding-top: 3.6em;
+	padding-top: 55px;
+	background-color: rgba(35,34,35,1);
 	width: 100%;
 	height: auto;
 }
@@ -330,9 +331,14 @@ ul#nav-list li a:active {
 @media only screen and (min-width: 25em) {
 .nav-logo-2{
 	display:block;
-	width: 60px;
+	width: 100px;
 	float: left;
 	margin-left: 10px;
+	margin-top: 20px;
+}
+
+.banner-img{
+	padding-top: 66px;
 }
 
 .nav-logo-1{
@@ -348,10 +354,6 @@ ul#nav-list{
 	padding-right: 10px;
 	padding-bottom: 5px;
 	padding-top: 5px;
-}
-
-.banner-img{
-	padding-top: 4.4em;
 }
 
 h1{
@@ -391,6 +393,14 @@ h1{
 	width: 25%;
 }
 
+.header-section{
+	height: 75px;
+}
+
+.banner-img{
+	padding-top: 75px;
+}
+
 .skill-text h3{
 	font-size: 20px;
 	margin-left: -15px;
@@ -428,6 +438,11 @@ h1{
 
 .about-section{
 	padding-bottom: 4em;
+}
+
+.nav-logo-2{
+	width: 140px;
+	margin-left: 30px;
 }
 
 h1{
