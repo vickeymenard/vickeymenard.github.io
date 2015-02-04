@@ -75,7 +75,7 @@ h2{
 }
 
 p{
-	padding-bottom: 16px;
+	padding-bottom: 10px;
 }
 
 .flex-img{
@@ -167,10 +167,6 @@ ul#nav-list li a:active {
 	padding-bottom: 2em;
 }
 
-.about-section h2{
-	padding-top: 1em;
-}
-
 .about-section p{
 	text-align: center;
 	padding-left: 20px;
@@ -183,7 +179,6 @@ ul#nav-list li a:active {
 	width: 100%;
 	text-align: center;
 	padding: 3px;
-	padding-bottom: 1.5em;
 }
 
 
@@ -364,7 +359,7 @@ ul#nav-list{
 }
 
 h1{
-	font-size: 18px;
+	font-size: 15px;
 	padding-top: 2em;
 	padding-bottom: 2em;
 	margin-bottom: 1.5em;
@@ -493,6 +488,10 @@ h1{
 	font-size: 18px;
 }
 
+.about-section p{
+	padding: 0 80px 0 80px;
+}
+
 .skill-icon{
 	width: 25%;
 }
@@ -511,6 +510,7 @@ h1{
 
 .skill-section{
 	max-width: 700px;
+	padding-left: 20px;
 }
 
 }
@@ -520,6 +520,14 @@ h1{
 
 h1{
 	font-size: 20px;
+}
+
+.about-section img{
+	display: inline-block;
+	width: 75%;
+	text-align: center;
+	margin-left: 130px;
+	padding-bottom: 2em;
 }
 
 .skill-section{
@@ -579,7 +587,10 @@ h1{
 
 .photo-img{
 	max-width: 80%;
+}
 
+.about-sections img{
+	padding-left: 160px;
 }
 
 }
