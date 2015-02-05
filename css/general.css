@@ -189,13 +189,26 @@ ul#nav-list li a:active {
 	float:left;
 	width: 30%;
 	margin-bottom: 8px;
-	padding-right: 15px;
-	border-right: 1px solid #8f8f8f;
+	-webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.skill-icon:hover{
+	-webkit-transform: rotate(-13deg);
+     -moz-transform: rotate(-13deg);
+       -o-transform: rotate(-13deg);
+      -ms-transform: rotate(-13deg);
+          transform: rotate(-13deg);
 }
 
 .skill-text{
 	float: right;
 	width: 65%;
+	border-left: 1px solid #8f8f8f;
+	padding-left: 25px;
 }
 
 .skill-text h3{
@@ -251,11 +264,11 @@ ul#nav-list li a:active {
 }
 
 .design:hover{
-	-webkit-transform: rotate(-15deg);
-     -moz-transform: rotate(-15deg);
-       -o-transform: rotate(-15deg);
-      -ms-transform: rotate(-15deg);
-          transform: rotate(-15deg);
+	-webkit-transform: rotate(-3deg);
+     -moz-transform: rotate(-3deg);
+       -o-transform: rotate(-3deg);
+      -ms-transform: rotate(-3deg);
+          transform: rotate(-3deg);
 }
 
 .design-section p{
