@@ -109,7 +109,8 @@ ul#nav-list{
 
 ul#nav-list li a {
 	text-decoration: none;
-	padding: 15px;
+	margin: 0px 15px 0px 15px;
+	padding-bottom: 6px;
 	width: 100px;
 	color: #59dfb4;
 	text-transform: uppercase;
@@ -117,11 +118,11 @@ ul#nav-list li a {
 }
 
 ul#nav-list li a:hover {
-	border-bottom: 1px solid #59dfb4;
+	border-bottom: 2px solid #59dfb4;
 }
 
 ul#nav-list li a:active {
-	border-bottom: 1px solid #59dfb4;
+	border-bottom: 2px solid #59dfb4;
 }
 
 .header-li {
@@ -321,25 +322,36 @@ ul#nav-list li a:active {
 .contact-section h2{
 	color: #59dfb4;
 	padding-top: 1em;
-	padding-bottom: 5px;
+	padding-bottom: 10px;
 	border-bottom: 1px solid #59dfb4;
+	margin-bottom: -4px;
 	text-align: center;
 	display: inline-block;
 }
 
 .contact-section h3{
-	padding-top: -10px;
-	font-weight: 400;
+	padding-bottom: 2em;
+	color:#b9babb;
+	font-size: 18px;
+	font-weight: 300;
+	text-transform: uppercase;
 }
 
 .contact-info p{
-	font-size: 25px;
+	text-align: left;
+	margin-left: 370px;
+	font-size: 24px;
 	color: white;
 	margin-top: 0;
 }
 
+.contact-info{
+	padding-bottom: 4em;
+}
+
 .phone-number{
-	font-weight: 700;
+	font-family: sans-serif;
+	font-weight: 200;
 	color: rgba(180,214,193,1);
 	margin-bottom: 0;
 	padding-bottom: 2em;
@@ -351,8 +363,32 @@ ul#nav-list li a:active {
 	margin-bottom: 0;
 }
 
+.contact-info a{
+	text-decoration: none;
+	color: white;
+	-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.contact-info a:hover{
+	font-size: 26px;
+}
+
 .social-icons{
-	size: 40px;
+	font-size: 30px;
+	color: #59dfb4;
+	-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.social-icons:hover {
+	font-size: 35px;
 }
 
 /* ------------------ Footer Section */
