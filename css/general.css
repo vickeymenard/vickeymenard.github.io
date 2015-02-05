@@ -358,7 +358,7 @@ ul#nav-list li a:active {
 }
 
 .contact-info{
-	padding-bottom: 4em;
+	padding-bottom: 2em;
 }
 
 .phone-number{
@@ -366,7 +366,7 @@ ul#nav-list li a:active {
 	font-weight: 200;
 	color: rgba(180,214,193,1);
 	margin-bottom: 0;
-	padding-bottom: 2em;
+	padding-bottom: 1em;
 	text-decoration: none;
 }
 
@@ -390,8 +390,9 @@ ul#nav-list li a:active {
 }
 
 .social-icons{
-	font-size: 30px;
+	font-size: 22px;
 	color: #59dfb4;
+	padding: 10px;
 	-webkit-transition: all 1s ease;
      -moz-transition: all 1s ease;
        -o-transition: all 1s ease;
@@ -400,7 +401,11 @@ ul#nav-list li a:active {
 }
 
 .social-icons:hover {
-	font-size: 35px;
+	font-size: 28px;
+}
+
+.social-section{
+	padding-bottom: 2em;
 }
 
 /* ------------------ Footer Section */
