@@ -229,6 +229,32 @@ ul#nav-list li a:active {
 	margin: 0;
 	display: block;
 	padding: 3px;
+	-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.design-section img:hover{
+	width: 95%;
+	color: #59dfb4;
+}
+
+.design{
+	  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.design:hover{
+	-webkit-transform: rotate(-15deg);
+     -moz-transform: rotate(-15deg);
+       -o-transform: rotate(-15deg);
+      -ms-transform: rotate(-15deg);
+          transform: rotate(-15deg);
 }
 
 .design-section p{
@@ -259,6 +285,15 @@ ul#nav-list li a:active {
 	width: 100%;
 	display: block;
 	padding: 3px;
+	-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.photography-section img:hover{
+	width: 95%;
 }
 
 .photography-section p{
@@ -276,7 +311,7 @@ ul#nav-list li a:active {
 /* ------------------ Contact Section */
 
 .contact-section{
-	background-color: #151515;
+	background-color: rgba(35,34,35,1);
 	text-align: center;
 	color: white;
 	position:relative;
@@ -286,10 +321,15 @@ ul#nav-list li a:active {
 .contact-section h2{
 	color: #59dfb4;
 	padding-top: 1em;
-	padding-bottom: 25px;
+	padding-bottom: 5px;
 	border-bottom: 1px solid #59dfb4;
 	text-align: center;
 	display: inline-block;
+}
+
+.contact-section h3{
+	padding-top: -10px;
+	font-weight: 400;
 }
 
 .contact-info p{
