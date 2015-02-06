@@ -193,19 +193,6 @@ ul#nav-list li a:active {
 	float:left;
 	width: 30%;
 	margin-bottom: 8px;
-	-webkit-transition: all 0.5s ease;
-     -moz-transition: all 0.5s ease;
-       -o-transition: all 0.5s ease;
-      -ms-transition: all 0.5s ease;
-          transition: all 0.5s ease;
-}
-
-.skill-icon:hover{
-	-webkit-transform: rotate(-13deg);
-     -moz-transform: rotate(-13deg);
-       -o-transform: rotate(-13deg);
-      -ms-transform: rotate(-13deg);
-          transform: rotate(-13deg);
 }
 
 .skill-text{
@@ -247,33 +234,8 @@ ul#nav-list li a:active {
 	margin: 0;
 	display: block;
 	padding: 3px;
-	-webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-       -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 1s ease;
 }
 
-.design-section img:hover{
-	width: 95%;
-	color: #59dfb4;
-}
-
-.design{
-	  -webkit-transition: all 0.5s ease;
-     -moz-transition: all 0.5s ease;
-       -o-transition: all 0.5s ease;
-      -ms-transition: all 0.5s ease;
-          transition: all 0.5s ease;
-}
-
-.design:hover{
-	-webkit-transform: rotate(-3deg);
-     -moz-transform: rotate(-3deg);
-       -o-transform: rotate(-3deg);
-      -ms-transform: rotate(-3deg);
-          transform: rotate(-3deg);
-}
 
 .design-section p{
 	text-align: center;
@@ -303,15 +265,6 @@ ul#nav-list li a:active {
 	width: 100%;
 	display: block;
 	padding: 3px;
-	-webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-       -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 1s ease;
-}
-
-.photography-section img:hover{
-	width: 95%;
 }
 
 .photography-section p{
@@ -383,30 +336,12 @@ ul#nav-list li a:active {
 .contact-info a{
 	text-decoration: none;
 	color: white;
-	-webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-       -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 1s ease;
-}
-
-.contact-info a:hover{
-	font-size: 26px;
 }
 
 .social-icons{
 	font-size: 22px;
 	color: #59dfb4;
 	padding: 10px;
-	-webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-       -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 1s ease;
-}
-
-.social-icons:hover {
-	font-size: 28px;
 }
 
 .social-section{
@@ -569,30 +504,12 @@ h1{
 .contact-info a{
 	text-decoration: none;
 	color: white;
-	-webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-       -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 1s ease;
-}
-
-.contact-info a:hover{
-	font-size: 26px;
 }
 
 .social-icons{
 	font-size: 22px;
 	color: #59dfb4;
 	padding: 10px;
-	-webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-       -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 1s ease;
-}
-
-.social-icons:hover {
-	font-size: 28px;
 }
 
 .social-section{
@@ -645,6 +562,93 @@ h1{
 
 .skill-section{
 	max-width: 600px;
+}
+
+.skill-icon{
+	-webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.skill-icon:hover{
+	-webkit-transform: rotate(-13deg);
+     -moz-transform: rotate(-13deg);
+       -o-transform: rotate(-13deg);
+      -ms-transform: rotate(-13deg);
+          transform: rotate(-13deg);
+}
+
+.design-section img{
+	width: 100%;
+	margin: 0;
+	display: block;
+	padding: 3px;
+	-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.design-section img:hover{
+	width: 95%;
+}
+
+.design{
+	  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.design:hover{
+	-webkit-transform: rotate(-3deg);
+     -moz-transform: rotate(-3deg);
+       -o-transform: rotate(-3deg);
+      -ms-transform: rotate(-3deg);
+          transform: rotate(-3deg);
+}
+
+.photography-section img{
+	width: 100%;
+	display: block;
+	padding: 3px;
+	-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.photography-section img:hover{
+	width: 95%;
+}
+
+.contact-info a{
+	-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.contact-info a:hover{
+	font-size: 26px;
+}
+
+.social-icons{
+	-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.social-icons:hover {
+	font-size: 28px;
 }
 
 }
