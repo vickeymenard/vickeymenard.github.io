@@ -340,12 +340,13 @@ ul#nav-list li a:active {
 	margin-bottom: -4px;
 	text-align: center;
 	display: inline-block;
+	font-size: 30px;
 }
 
 .contact-section h3{
 	padding-bottom: 2em;
 	color:#b9babb;
-	font-size: 18px;
+	font-size: 13.5px;
 	font-weight: 300;
 	text-transform: uppercase;
 }
@@ -516,6 +517,83 @@ h1{
 
 .skill-section{
 	max-width: 340px;
+}
+
+.contact-section h2{
+	color: #59dfb4;
+	font-size: 40px;
+	padding-top: 1em;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #59dfb4;
+	margin-bottom: -4px;
+	text-align: center;
+	display: inline-block;
+}
+
+.contact-section h3{
+	padding-bottom: 2em;
+	color:#b9babb;
+	font-size: 18px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.contact-info p{
+	text-align: center;
+	font-size: 24px;
+	color: white;
+	margin-top: 0;
+}
+
+.contact-info{
+	padding-bottom: 2em;
+}
+
+.phone-number{
+	font-family: sans-serif;
+	font-weight: 200;
+	color: rgba(180,214,193,1);
+	margin-bottom: 0;
+	padding-bottom: 1em;
+	text-decoration: none;
+}
+
+.email{
+	padding-bottom: .5em;
+	margin-bottom: 0;
+}
+
+.contact-info a{
+	text-decoration: none;
+	color: white;
+	-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.contact-info a:hover{
+	font-size: 26px;
+}
+
+.social-icons{
+	font-size: 22px;
+	color: #59dfb4;
+	padding: 10px;
+	-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.social-icons:hover {
+	font-size: 28px;
+}
+
+.social-section{
+	padding-bottom: 2em;
 }
 
 }
