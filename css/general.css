@@ -72,6 +72,8 @@ h2{
 	font-weight: 400;
 	font-size: 25px;
 	text-align: center;
+	margin-top: 0;
+	padding-top: 1em;
 }
 
 p{
@@ -177,11 +179,13 @@ ul#nav-list li a:active {
 
 .about-section img{
 	display: inline-block;
-	width: 100%;
+	width: 80%;
+	margin: auto 0;
 	text-align: center;
-	padding: 3px;
-}
+	margin-left: 25px;
+	margin-bottom: -4px;
 
+}
 
 /*--------------- Skills section */
 
@@ -452,6 +456,10 @@ h1{
 	margin-bottom: 1.5em;
 }
 
+.about-section img{
+	margin-left: 33px;
+}
+
 .design-section{
 	padding-top: 4em;
 }
@@ -508,11 +516,6 @@ h1{
 .photography-section p{
 	padding-left: 3em;
 	padding-right: 3em;
-}
-
-.my-photos{
-	max-width: 470px;
-	margin: 0 auto;
 }
 
 .skill-section{
@@ -615,6 +618,12 @@ h1{
 	font-size: 20px;
 }
 
+.about-section img{
+	margin-left: 55px;
+	padding-bottom: 1em;
+}
+
+
 .header-section{
 	padding-right: 40px;
 }
@@ -638,11 +647,6 @@ h1{
 	max-width: 600px;
 }
 
-.my-photos{
-	max-width: 500px;
-	margin: 0 auto;
-}
-
 }
 
 /* Large screen 700 px */
@@ -654,6 +658,11 @@ h1{
 
 .about-section p{
 	padding: 0 80px 0 80px;
+}
+
+.about-section img{
+	margin-left: 55px;
+	padding-bottom: 2em;
 }
 
 .skill-icon{
@@ -686,14 +695,6 @@ h1{
 	font-size: 20px;
 }
 
-.about-section img{
-	display: inline-block;
-	width: 75%;
-	text-align: center;
-	margin-left: 130px;
-	padding-bottom: 2em;
-}
-
 .skill-section{
 	max-width: 700px;
 }
@@ -702,6 +703,11 @@ h1{
 	max-width: 700px;
 	margin: 0 auto;
 	padding: 10px;
+}
+
+.about-section img{
+	margin-left: 70px;
+	padding-bottom: 2em;
 }
 
 .design-section p{
@@ -725,6 +731,12 @@ h1{
 
 .about-section p{
 	max-width: 700px;
+}
+
+.about-section img{
+	max-width: 70%;
+	margin-left: 120px;
+	padding-bottom: 2em;
 }
 
 .quote{
@@ -755,6 +767,12 @@ h1{
 	font-size: 25px;
 }
 
+.about-section img{
+	max-width: 50%;
+	margin-left: 330px;
+	padding-bottom: 2em;
+}
+
 .quote{
 	width: 60%;
 	padding-bottom: 20px;
@@ -762,11 +780,6 @@ h1{
 
 .photo-img{
 	max-width: 80%;
-}
-
-.about-section img{
-	padding-left: 140px;
-	width: 70%;
 }
 
 }
