@@ -73,7 +73,7 @@ h2{
 	font-size: 35px;
 	text-align: center;
 	margin-top: 0;
-	padding-top: 2em;
+	padding-top: .5em;
 }
 
 p{
@@ -421,7 +421,7 @@ figcaption{
 }
 
 .banner-img{
-	padding-top: 66px;
+	padding-top: 75px;
 }
 
 .nav-logo-1{
